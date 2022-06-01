@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  color: whitesmoke;
+}
+
+.container-fluid img {
+  width: 20%;
+  height: 10%;
+}
+
+/*index*/
+
+.intro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+/*banner*/
+
+.banner {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+
+.banner p {
+  font-size: 8rem;
+}
+
+.banner img {
+  width: 40%;
+  height: auto;
+  border-radius: 100px;
+}
+
+.informacion {
+  background-color: #193028;
+  color: whitesmoke;
+  padding: 40px;
+}
+
+.informacion p {
+  text-align: center;
+  font-size: 50px;
+}
+
+.informacion img {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.oferta-p {
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.neipa img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.neipa p {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*nuestras-cervezas*/
+
+.cervezas {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.cervezas-titles {
+  font-size: 20px;
+}
+
+.cerveza-tipo {
+  font-size: 15px;
+  text-align: center;
+}
+
+.card {
+  position: static;
+}
+
+.card-text {
+  text-align: justify;
+  padding: 10px;
+}
+
+.cervezas-button {
+  padding: 3px;
+  display: block;
+  margin: 0 auto;
+  background-color: #193028;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+.cervezas-button:hover {
+  transform: scale(1.2);
+  background-color: whitesmoke;
+  color: #193028;
+  padding: 4px;
+}
+
+/*bar*/
+
+.bar-subt {
+  margin-bottom: 40px;
+}
+.lugar,
+.comida,
+.pintas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.elbar img {
+  width: 350px;
+  height: 380px;
+}
+
+/* .whapp {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;                     para boton de whapp abajo derecha :) 
+} */
