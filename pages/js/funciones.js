@@ -14,11 +14,11 @@ function calcularLitros() {
     "Ingrese los litros de cerveza tipo Honey SWEET AGNES que desea:"
   );
   let creamAle = prompt(
-    "Ingrese los litros de cerveza tipo Cream Ale Smetana que desea:"
+    "Ingrese los litros de cerveza tipo Cream Ale SMETANA que desea:"
   );
   let ipa = prompt("Ingrese los litros de cerveza tipo IPA CLÁSICA que desea:");
   let porter = prompt(
-    "Ingrese los litros de cerveza tipo Porter Darth que desea:"
+    "Ingrese los litros de cerveza tipo Porter DARTH que desea:"
   );
 
   let resultado = sumaLitros(scottish, honey, creamAle, ipa, porter);
