@@ -74,3 +74,7 @@ function buscarCerveza() {
 }
 
 buscarCerveza();
+
+/*para la venta de cerveza por 20 litros*/
+
+

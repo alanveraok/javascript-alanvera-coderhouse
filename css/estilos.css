@@ -157,3 +157,18 @@ h2 {
   right: 5px;
   bottom: 5px;                     para boton de whapp abajo derecha :) 
 } */
+
+.parr-ventas {
+  text-align: center;
+}
+
+.cervezas-ventas {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.botones-ventas {
+  display: flex;
+}
