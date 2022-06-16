@@ -24,9 +24,8 @@ buscarStock();
 
 function filtrarStock() {
   let aFiltrar = prompt("Ingrese el tipo de cerveza que deseas buscar");
-  let resultado = stockCervezas.filter((Stock) =>
-    stockCervezas.nombre.includes(aFiltrar)
-  );
+  let resultado = stockCervezas.filter((stock) => stock.nombre(aFiltrar));
+  console.table(resultado)
 }
 
 filtrarStock();
