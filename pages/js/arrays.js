@@ -1,79 +1,86 @@
-const cervezas = ["Scottish", "Honey", "Cream Ale", "IPA", "Porter"];
+// const cervezas = [
+//   "Scottish",
+//   "Honey",
+//   "Cream Ale",
+//   "IPA",
+//   "Porter",
+//   "American Pale Ale",
+//   "Golden",
+//   "Stout",
+//   "Dorada Pampeana",
+// ];
 
-function listaCerveza() {
-  debugger;
-  console.clear;
-  console.table(cervezas);
-}
+// function listaCerveza() {
+//   debugger;
+//   console.clear;
+//   console.table(cervezas);
+// }
 
-listaCerveza();
+// listaCerveza();
 
-const cervezaPalida = ["Honey", "Cream Ale", "IPA"];
-const cervezaOscura = ["Scottish", "Porter"];
+// const cervezaPalida = ["Honey", "Cream Ale", "IPA"];
+// const cervezaOscura = ["Scottish", "Porter"];
 
-function clasificarPalidas() {
-  debugger;
-  console.table(cervezaPalida);
-}
+// function clasificarPalidas() {
+//   debugger;
+//   console.table(cervezaPalida);
+// }
 
-clasificarPalidas();
+// clasificarPalidas();
 
-function clasificarOscuras() {
-  debugger;
-  console.table(cervezaOscura);
-}
+// function clasificarOscuras() {
+//   debugger;
+//   console.table(cervezaOscura);
+// }
 
-clasificarOscuras();
+// clasificarOscuras();
 
-/*para agregar o quitar stock*/
+// /*para agregar o quitar stock*/
 
-// const proximoStock = ["Dorada"];
-// debugger;
+// // const proximoStock = ["Dorada"];
+// // debugger;
+
+// // function agregarStock() {
+// //   debugger;
+// //   let nuevoStock = proximoStock;
+// //   cervezas.push(nuevoStock);
+// //   console.table(cervezas);
+// // }
+// // agregarStock();
 
 // function agregarStock() {
 //   debugger;
-//   let nuevoStock = proximoStock;
+//   let nuevoStock = prompt(
+//     "Ingrese nuevo stock de cerveza"
+//   ); /*APA, por ejemplo*/
 //   cervezas.push(nuevoStock);
 //   console.table(cervezas);
 // }
+
 // agregarStock();
 
-function agregarStock() {
-  debugger;
-  let nuevoStock = prompt(
-    "Ingrese nuevo stock de cerveza"
-  ); /*APA, por ejemplo*/
-  cervezas.push(nuevoStock);
-  console.table(cervezas);
-}
+// function quitarStock() {
+//   debugger;
+//   let quitarStock = prompt(
+//     "Ingrese el stock que desea quitar:"
+//   ); /*Honey, porque indice 1*/
+//   cervezas.splice(1, 1);
+//   console.table(cervezas);
+// }
 
-agregarStock();
+// quitarStock();
 
-function quitarStock() {
-  debugger;
-  let quitarStock = prompt(
-    "Ingrese el stock que desea quitar:"
-  ); /*Honey, porque indice 1*/
-  cervezas.splice(1, 1);
-  console.table(cervezas);
-}
+// function buscarCerveza() {
+//   debugger;
+//   let busqueda = prompt("Ingrese el tipo de cerveza que desea buscar:");
+//   let resultado = cervezas.includes(busqueda);
+//   if (resultado) {
+//     console.log("La cerveza se encuentra en stock");
+//   } else {
+//     console.warn(
+//       "Lo sentimos, la cerveza no se encuentra en stock y/o producción"
+//     );
+//   }
+// }
 
-quitarStock();
-
-function buscarCerveza() {
-  debugger;
-  let busqueda = prompt("Ingrese el tipo de cerveza que desea buscar:");
-  let resultado = cervezas.includes(busqueda);
-  if (resultado) {
-    console.log("La cerveza se encuentra en stock");
-  } else {
-    console.warn(
-      "Lo sentimos, la cerveza no se encuentra en stock y/o producción"
-    );
-  }
-}
-
-buscarCerveza();
-
-
-
+// buscarCerveza();

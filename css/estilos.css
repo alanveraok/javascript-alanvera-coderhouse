@@ -92,7 +92,8 @@ h2 {
 
 /*nuestras-cervezas*/
 
-.cervezas {
+.cervezas,
+.cervezas2 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
@@ -171,4 +172,28 @@ h2 {
 
 .botones-ventas {
   display: flex;
+}
+
+#listaKit li {
+  list-style: none;
+  border-bottom: 2px solid #193028;
+}
+
+.contenedor-carrito {
+  text-align: center;
+  color: #193028;
+  margin-bottom: 20px;
+}
+
+.contenedor-carrito i {
+  color: #193028;
+  font-size: 80px;
+}
+.formulario {
+  margin-top: 20px;
+  background-color: #193028;
+  color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
 }
