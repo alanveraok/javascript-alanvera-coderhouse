@@ -100,6 +100,10 @@ h2 {
   gap: 10px;
 }
 
+.cervezas2 {
+  margin-bottom: 40px;
+}
+
 .cervezas-titles {
   font-size: 20px;
 }
@@ -189,11 +193,31 @@ h2 {
   color: #193028;
   font-size: 80px;
 }
-.formulario {
-  margin-top: 20px;
+.formm {
+  text-align: center;
+  margin-top: 200px;
   background-color: #193028;
   color: whitesmoke;
   margin-left: 50px;
   margin-right: 50px;
   padding: 20px;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: whitesmoke;
+  color: #193028;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
 }

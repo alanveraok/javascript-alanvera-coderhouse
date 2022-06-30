@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="../css/estilos.css">
 
     <title>HOPFEN |Formulario</title>
-    <script src="js/variables-formulario.js"></script>
 
 </head>
 
@@ -64,31 +63,48 @@
     <body>
 
         <h1>Finalice su compra:</h1>
-        <form class="row g-3 formulario" action="https://formspree.io/f/mnqwlezg" method="POST">
+        <!-- <form class="row g-3 formulario">
             <div class="col-md-6">
                 <div class="col-12">
                     <label for="inputNombre" id="inputNombre">Nombre</label>
-                    <input type="text" class="form-control" id="inputAddress" name="texto">
+                    <input type="text" class="form-control" id="inputNombre" name="texto">
                 </div>
                 <div class="col-12">
                     <label for="inputDireccion" id="inputDireccion">Dirección</label>
-                    <input type="text" class="form-control" id="inputAddress" name="texto">
+                    <input type="text" class="form-control" id="inputDireccion" name="texto">
                 </div>
 
                 <div class="col-md-6">
                     <label for="inputCiudad" id="inputCiudad">Ciudad</label>
-                    <input type="text" class="form-control" id="inputCity" name="ciudad">
+                    <input type="text" class="form-control" id="inputCiudad" name="ciudad">
                 </div>
 
             </div>
             <div class="col-12">
                 <button type="submit" class="btn1 btn-primary">Enviar</button>
             </div>
+        </form> -->
+
+
+        <form action="#" class="formm">
+            <p>Ingrese sus datos para terminar la compra</p>
+            <div>
+                <input type="text" id="inputNombre" placeholder="Ingrese su nombre">
+            </div>
+
+
+            <div> <input type="text" id="inputCiudad" placeholder="Ingrese su ciudad"></div>
+
+            <div> <input type="tel" id="inputTelefono" placeholder="Ingrese su número telefónico"></div>
+
+            <input type="submit" class="btn whitesmoke white-text" id="submit" value="FINALIZAR COMPRA">
+
+
         </form>
 
 
-
-
+        <script src="js/variables-formulario.js"></script>
+        <script src="js/arraysCervezas.js"></script>
     </body>
 
 </html>
