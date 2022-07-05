@@ -1,6 +1,6 @@
 const cervezas = [
   "Scottish",
-  "Honey",
+  "Amber",
   "Cream Ale",
   "IPA",
   "Porter",
@@ -74,17 +74,21 @@ function aplicarCarrito() {
   }
 }
 
-function mostrarCarrito(){
-  if(localStorage.getItem(datosUsuario)){
-    const datosUsuario = JSON.parse(localStorage.getItem(datosUsuario))
-    nombre: inputNombre.value
-    ciudad: inputCiudad.value
-    telefono: inputTelefono.value
+function mostrarCarrito() {
+  if (localStorage.getItem(datosUsuario)) {
+    const datosUsuario = JSON.parse(localStorage.getItem(datosUsuario));
+    nombre: inputNombre.value;
+    ciudad: inputCiudad.value;
+    telefono: inputTelefono.value;
   }
 
-  let carrito = JSO.parse(localStorage.getItem(carrito))
+  let carrito = JSO.parse(localStorage.getItem(carrito));
 }
 
+mostrarCarrito();
 
 
-mostrarCarrito()
+
+
+ carrito.length === 0 && console.warn("Por favor, añada kit deseado a su carrito.")
+

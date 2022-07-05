@@ -195,7 +195,7 @@ h2 {
 }
 .formm {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 80px;
   background-color: #193028;
   color: whitesmoke;
   margin-left: 50px;
@@ -204,6 +204,7 @@ h2 {
   border-radius: 10px;
   margin-left: 350px;
   margin-right: 350px;
+  margin-bottom: 50px;
 }
 
 input {
@@ -220,4 +221,10 @@ input {
 
 ul {
   list-style: none;
+}
+
+.ventana {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 40px;
 }
