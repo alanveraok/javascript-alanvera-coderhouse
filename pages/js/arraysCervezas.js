@@ -87,8 +87,6 @@ function mostrarCarrito() {
 
 mostrarCarrito();
 
-
-
-
- carrito.length === 0 && console.warn("Por favor, añada kit deseado a su carrito.")
+carrito.length === 0 &&
+  console.warn("Por favor, añada kit deseado a su carrito.");
 

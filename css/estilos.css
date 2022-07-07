@@ -193,6 +193,20 @@ h2 {
   color: #193028;
   font-size: 80px;
 }
+
+.contenedor-carrito a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #193028;
+  padding: 10px;
+  background-color: #193028;
+  border-radius: 15px;
+}
+
+.finalizar {
+  margin-top: 25px;
+}
+
 .formm {
   text-align: center;
   margin-top: 80px;
